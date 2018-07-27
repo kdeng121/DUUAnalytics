@@ -18,12 +18,15 @@
         <!-- JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
-        <!-- Custom styling for this webpage -->
-        <link href="main.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
         
         <!-- Font Awesome JS -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+        
+        
+        
     </head>
     
     
@@ -44,75 +47,71 @@
                 </div>
 
                 <ul class="list-unstyled components">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
                     <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Programming</a>
                         <ul class="collapse list-unstyled" id="homeSubmenu">
                             <li>
-                                <a href="#">Home 1</a>
+                                <a href="cc.html">Campus Concerts</a>
                             </li>
                             <li>
-                                <a href="#">Home 2</a>
+                                <a href="coffeehouse.html">Duke Coffeehouse</a>
                             </li>
                             <li>
-                                <a href="#">Home 3</a>
+                                <a href="dukeatnight.html">Duke@Nite</a>
+                            </li>
+                            <li>
+                                <a href="dsb.html">Duke Student Broadcasting</a>
+                            </li>
+                            <li>
+                                <a href="freewaterpresentations.html">Freewater Presentations</a>
+                            </li>
+                            <li>
+                                <a href="freewaterproductions.html">Freewater Productions</a>
+                            </li>
+                            <li>
+                                <a href="jazzat.html">Jazz@</a>
+                            </li>
+                            <li>
+                                <a href="ldoc.html">LDOC</a>
+                            </li>
+                            <li>
+                                <a href="speakersandstage.html">Speakers & Stage</a>
+                            </li>
+                            <li>
+                                <a href="specialevents.html">Special Events</a>
+                            </li>
+                            <li>
+                                <a href="str.html">Small Town Records</a>
+                            </li>
+                            <li>
+                                <a href="visarts.html">VisArts</a>
+                            </li>
+                            <li>
+                                <a href="wxdu.html">WXDU</a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="#">Campus Concerts</a>
-                    </li>
-                    <li>
-                        <a href="#">Duke Coffeehouse</a>
-                    </li>
-                    <li>
-                        <a href="#">DevOps</a>
-                    </li>
-                    <li>
-                        <a href="#">Downtown Duke</a>
-                    </li>
-                    <li>
-                        <a href="#">Duke Student Broadcasting</a>
-                    </li>
-                    <li>
-                        <a href="#">DUU</a>
-                    </li>
-                    <li>
-                        <a href="#">Financial Analysts</a>
-                    </li>
-                    <li>
-                        <a href="#">First-Year Interns</a>
-                    </li>
-                    <li>
-                        <a href="#">Freewater Presentations</a>
-                    </li>
-                    <li>
-                        <a href="#">Freewater Productions</a>
-                    </li>
-                    <li>
-                        <a href="#">Jazz@</a>
-                    </li>
-                    <li>
-                        <a href="#">LDOC</a>
-                    </li>
-                    <li>
-                        <a href="#">Marketing</a>
-                    </li>
-                    <li>
-                        <a href="#">Speakers & Stage</a>
-                    </li>
-                    <li>
-                        <a href="#">Special Events</a>
-                    </li>
-                    <li>
-                        <a href="#">Small Town Records</a>
-                    </li>
-                    <li>
-                        <a href="#">VisArts</a>
-                    </li>
-                    <li>
-                        <a href="#">WXDU</a>
-                    </li>
-
+                        
+                    <a href="#nonprogramming" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Non-Programming</a>
+                        <ul class="collapse list-unstyled" id="nonprogramming">
+                            <li>
+                                <a href="devops.html">DevOps</a>
+                            </li>
+                            <li>
+                                <a href="duu.html">DUU</a>
+                            </li>
+                            <li>
+                                <a href="finance.html">Financial Analysts</a>
+                            </li>
+                            <li>
+                                <a href="fips.html">First-Year Interns</a>
+                            </li>
+                            <li>
+                                <a href="marketing.html">Marketing</a>
+                            </li>
+                        </ul>
                 </ul>
             </nav>
             <!-- END SIDEBAR -->
@@ -120,58 +119,152 @@
             
             <!-- Page Content  -->
             <div id="content">
+                
+                <div id="nav-placeholder">
+                
+                </div>
+                
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
 
-                <nav class="navbar navbar-default navbar-fixed-top">
+                
+                
+                <!-- NAVIGATION BAR
+                <nav class="navbar navbar-fixed-top">
                     <div class="container-fluid">
+
                         <button type="button" id="menuButton" class="btn btn-info">
                             <i class="fas fa-align-left"></i>
                             <span></span>
                         </button>
-                    </div>
-                    <div class="navbar-header">
-                        <h2 class="title-logo">duu analytics</h2>
+
+                        <div class="navbar-header">
+                            <a href="index.html">
+                                <h2 class="title-logo">duu analytics</h2>
+                            </a>
+                        </div>
                     </div>
                 </nav>
                 
-            
-                <div class="column">
-                    <div class="row extra-padding extra-padding-side">
-                        <img src="assets/cc.png">
-                        <img src="assets/coffeehouse.png">
-                        <img src="assets/devops.png">
-                        <img src='assets/downtownduke.png'>
-                        <img src="assets/dsb.png">
-                        <img src="assets/duu.png">
-                    </div>
-                    <div class="row extra-padding-side">
-                        <img src="assets/finanalysts.png">
-                        <img src="assets/fips.png">
-                        <img src="assets/freewater.png">
-                        <img src="assets/freewaterproductions.png">
-                        <img src="assets/jazz.png">
-                        <img src="assets/ldoc.png">
-                    </div>
-                    <div class="row extra-padding-side">
-                        <img src="assets/marketing.png">
-                        <img src="assets/speakers.png">
-                        <img src="assets/specialevents.png">
-                        <img src="assets/str.png">
-                        <img src="assets/visarts.png">
-                        <img src="assets/wxdu.png">
-                    </div>
+                END OF NAVBAR-->
                 
-                </div>
-
-            </div>
-            <div class="overlay"></div>
+        
+                
             
+                <div class="row">
+                    
+                    <div class="column">
+                        <a href="cc.html">
+                            <img src="assets/cc.png">
+                        </a>
+                        <a href="finance.html">
+                            <img src="assets/finanalysts.png">
+                        </a>
+                        <a href="marketing.html">
+                            <img src="assets/marketing.png">
+                        </a>
+   
+                    </div>
+                    
+                    
+                    <div class="column">
+                        <a href="coffeehouse.html">
+                            <img src="assets/coffeehouse.png">
+                        </a>  
+                        <a href="fips.html">
+                            <img src="assets/fips.png">
+                        </a>
+                        <a href="speakersandstage.html">
+                            <img src="assets/speakers.png">
+                        </a>
+                    </div>  
+                    
+                    
+                    
+                    <div class="column">
+                        <a href="devops.html">
+                            <img src="assets/devops.png">
+                        </a>    
+                        <a href="freewaterpresentations.html">
+                            <img src="assets/freewater.png">
+                        </a>
+                        <a href="specialevents.html">
+                            <img src="assets/specialevents.png">
+                        </a>
+                    </div>
+                    
+                    
+                    
+                    <div class="column">
+                        <a href="dsb.html">
+                            <img src='assets/downtownduke.png'>
+                        </a>  
+                        <a href="freewaterproductions.html">
+                            <img src="assets/freewaterproductions.png">
+                        </a>
+                        <a href="str.html">
+                            <img src="assets/str.png">
+                        </a>
+                    </div>
+                    
+                    
+                    
+                    <div class="column">
+                        <a href="dukeatnight.html">
+                            <img src="assets/dsb.png">
+                        </a> 
+                        <a href="jazzat.html">
+                            <img src="assets/jazz.png">
+                        </a>
+                        <a href="visarts.html">
+                            <img src="assets/visarts.png">
+                        </a>
+                    </div>
+                    
+                    <div class="column">
+                        <a href="duu.html">
+                            <img src="assets/duu.png">
+                        </a>
+                        <a href="ldoc.html">
+                            <img src="assets/ldoc.png">
+                        </a>
+                        <a href="wxdu.html">
+                            <img src="assets/wxdu.png">
+                        </a>
+                    </div>
+                </div>
+                            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+            
+            
+        <div class="overlay"></div>
 
     </div>
         
         
         
 
-        
+  
         
             <!-- jQuery CDN  -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -181,6 +274,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         
         
+
         
         <script type="text/javascript">
             
@@ -197,6 +291,9 @@
             });
 
         </script>
+        
+        
+        
 
     
     

@@ -113,7 +113,8 @@ ul ul a {
 .navbar-fixed-top {
   background-color: #fafafa;
   position: fixed;
-  width: 100%;  
+  width: 100%; 
+    z-index: 3;
 }
 
 .overlay {
@@ -150,9 +151,14 @@ ul ul a {
 }
 
 .title-logo{
-    transform: translateX(-50%);
-    left: 50%;
+    display:block;
     position: absolute;
+    top: 50%;
+    left:50;
+    right:50%;
+    margin: 0 auto;
+    transform: translateY(-50%);
+
 }
 
 .extra-padding{
@@ -162,9 +168,27 @@ ul ul a {
     transform: translateX(5%);
 }
 img {
-    width: 15%;
-    height: 15%;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
+    
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+    margin-top:50px;
+    margin-left: 10px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 16%;
+  padding: 0 4px;
+}
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+img{
+    width: 80%;
 }
