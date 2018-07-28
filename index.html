@@ -36,118 +36,23 @@
         
         <div class="wrapper">
             
-            <!-- Sidebar -->
-            <nav id="sidebar">
-                <div id="dismissButton">
-                    <i class="fas fa-arrow-left"></i>
-                </div>
-                
-                <div class="sidebar-header">
-                    <h3>Committees</h3>
-                </div>
-
-                <ul class="list-unstyled components">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Programming</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li>
-                                <a href="cc.html">Campus Concerts</a>
-                            </li>
-                            <li>
-                                <a href="coffeehouse.html">Duke Coffeehouse</a>
-                            </li>
-                            <li>
-                                <a href="dukeatnight.html">Duke@Nite</a>
-                            </li>
-                            <li>
-                                <a href="dsb.html">Duke Student Broadcasting</a>
-                            </li>
-                            <li>
-                                <a href="freewaterpresentations.html">Freewater Presentations</a>
-                            </li>
-                            <li>
-                                <a href="freewaterproductions.html">Freewater Productions</a>
-                            </li>
-                            <li>
-                                <a href="jazzat.html">Jazz@</a>
-                            </li>
-                            <li>
-                                <a href="ldoc.html">LDOC</a>
-                            </li>
-                            <li>
-                                <a href="speakersandstage.html">Speakers & Stage</a>
-                            </li>
-                            <li>
-                                <a href="specialevents.html">Special Events</a>
-                            </li>
-                            <li>
-                                <a href="str.html">Small Town Records</a>
-                            </li>
-                            <li>
-                                <a href="visarts.html">VisArts</a>
-                            </li>
-                            <li>
-                                <a href="wxdu.html">WXDU</a>
-                            </li>
-                        </ul>
-                        
-                    <a href="#nonprogramming" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Non-Programming</a>
-                        <ul class="collapse list-unstyled" id="nonprogramming">
-                            <li>
-                                <a href="devops.html">DevOps</a>
-                            </li>
-                            <li>
-                                <a href="duu.html">DUU</a>
-                            </li>
-                            <li>
-                                <a href="finance.html">Financial Analysts</a>
-                            </li>
-                            <li>
-                                <a href="fips.html">First-Year Interns</a>
-                            </li>
-                            <li>
-                                <a href="marketing.html">Marketing</a>
-                            </li>
-                        </ul>
-                </ul>
-            </nav>
-            <!-- END SIDEBAR -->
-            
             
             <!-- Page Content  -->
             <div id="content">
                 
-                <div id="nav-placeholder">
-                
-                </div>
+                <!--Navigation bar-->
+                <div id="nav-placeholder"></div>
 
-                
-                
-                <!-- NAVIGATION BAR
-                <nav class="navbar navbar-fixed-top">
-                    <div class="container-fluid">
+                <script>
+                    $(function(){
+                      $("#nav-placeholder").load("nav.html");
+                    });
+                </script>
 
-                        <button type="button" id="menuButton" class="btn btn-info">
-                            <i class="fas fa-align-left"></i>
-                            <span></span>
-                        </button>
+                <!--end of Navigation bar-->
 
-                        <div class="navbar-header">
-                            <a href="index.html">
-                                <h2 class="title-logo">duu analytics</h2>
-                            </a>
-                        </div>
-                    </div>
-                </nav>
-                
-                END OF NAVBAR-->
-                
-        
-                
-            
+                    
+                <!-- Grid of Logos --->
                 <div class="row">
                     
                     <div class="column">
@@ -230,74 +135,12 @@
                         </a>
                     </div>
                 </div>
-                            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <!-- End Grid of Logos -->
         </div>
             
-            
-        <div class="overlay"></div>
-
     </div>
         
-        
-        
-
-
-            
-
-   
-        
-        
-        
-
-        
-        
-            <!-- jQuery CDN  -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <!-- Popper.JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <!-- Bootstrap JS -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-        
-        
-
-        
-        <script type="text/javascript">
-            
-            $(document).ready(function () {
-                $('#menuButton').on('click', function () {
-                    $('#sidebar').addClass('active');
-                    $('.overlay').addClass('active');
-
-                });
-                $('#dismissButton, .overlay').on('click', function () {
-                    $('#sidebar').removeClass('active');
-                    $('.overlay').removeClass('active');
-                });
-            });
-
-        </script>
-        
-        
-        
-
-    
     
     </body>
     

@@ -166,22 +166,13 @@ ul ul a {
 
 }
 
-.extra-padding{
-    margin-top: 60px;
-}
-.extra-padding-side{
-    transform: translateX(5%);
-}
-img {
-    
-}
 
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
-    margin-top:50px;
-    margin-left: 10px;
+    margin-top:0px;
+    margin-left: 5px;
 }
 
 /* Create two equal columns that sits next to each other */
@@ -196,4 +187,28 @@ img {
 
 img{
     width: 80%;
+}
+
+/* CUSTOM SCROLLBAR LOOK */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d3d3d3; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: grey; 
 }
